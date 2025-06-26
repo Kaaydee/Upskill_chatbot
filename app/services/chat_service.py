@@ -27,6 +27,8 @@ def chat_with_context(user_id, course_id, query):
     vectorstore = PineconeVectorStore(index=index, embedding=embeddings, namespace=namespace)
 
     docs = vectorstore.similarity_search(query, k=4)
+    # for i, doc in enumerate(docs):
+    #     print(f"\n--- đoạn {i + 1} ---\n{doc.page_content[:300]}")
     context = "\n\n".join([d.page_content for d in docs]) if docs else "Không có tài liệu liên quan."
 
     template = """Bạn là trợ lý học tập. Dựa vào ngữ cảnh sau, trả lời câu hỏi:
