@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": 1,
+    "question": "Thuật toán nào sau đây là thuật toán học có giám sát?",
+    "options": {
+      "A": "K-means",
+      "B": "Linear Regression",
+      "C": "Apriori",
+      "D": "PCA"
+    },
+    "answer": "B",
+    "topic": "Supervised Learning"
+  },
+  {
+    "question_id": 2,
+    "question": "Thuật toán Decision Tree dùng tiêu chí nào để phân tách dữ liệu?",
+    "options": {
+      "A": "Gradient",
+      "B": "Gini hoặc Entropy",
+      "C": "Mean",
+      "D": "Distance"
+    },
+    "answer": "B",
+    "topic": "Decision Tree"
+  },
+  {
+    "question_id": 3,
+    "question": "Overfitting xảy ra khi nào?",
+    "options": {
+      "A": "Mô hình học quá ít",
+      "B": "Mô hình đơn giản",
+      "C": "Mô hình quá khớp dữ liệu huấn luyện",
+      "D": "Dữ liệu bị nhiễu"
+    },
+    "answer": "C",
+    "topic": "Overfitting"
+  },
+  {
+    "question_id": 4,
+    "question": "Mục tiêu chính của thuật toán K-means là gì?",
+    "options": {
+      "A": "Dự đoán nhãn",
+      "B": "Phân cụm dữ liệu",
+      "C": "Giảm chiều dữ liệu",
+      "D": "Tăng kích thước dữ liệu"
+    },
+    "answer": "B",
+    "topic": "Clustering"
+  },
+  {
+    "question_id": 5,
+    "question": "Activation function phổ biến nào thường dùng trong mạng nơ-ron?",
+    "options": {
+      "A": "Sigmoid",
+      "B": "Mean",
+      "C": "Derivative",
+      "D": "Average Pooling"
+    },
+    "answer": "A",
+    "topic": "Neural Network"
+  },
+  {
+    "question_id": 6,
+    "question": "Khi nào nên dùng PCA?",
+    "options": {
+      "A": "Khi muốn tăng kích thước dữ liệu",
+      "B": "Khi dữ liệu không có nhãn",
+      "C": "Khi muốn giảm chiều dữ liệu",
+      "D": "Khi training bị lỗi"
+    },
+    "answer": "C",
+    "topic": "Dimensionality Reduction"
+  },
+  {
+    "question_id": 7,
+    "question": "Trong SVM, margin là gì?",
+    "options": {
+      "A": "Khoảng cách giữa các điểm dữ liệu",
+      "B": "Khoảng cách từ điểm gần nhất đến siêu phẳng phân chia",
+      "C": "Số lượng nhãn",
+      "D": "Độ chính xác"
+    },
+    "answer": "B",
+    "topic": "SVM"
+  },
+  {
+    "question_id": 8,
+    "question": "Gradient Descent có thể hội tụ sai nếu:",
+    "options": {
+      "A": "Learning rate quá nhỏ",
+      "B": "Learning rate quá lớn",
+      "C": "Dữ liệu đẹp",
+      "D": "Batch size lớn"
+    },
+    "answer": "B",
+    "topic": "Optimization"
+  },
+  {
+    "question_id": 9,
+    "question": "Epoch là gì trong quá trình huấn luyện mô hình?",
+    "options": {
+      "A": "Một lần cập nhật trọng số",
+      "B": "Một batch dữ liệu",
+      "C": "Một lượt học hết toàn bộ tập train",
+      "D": "Số lượng layers"
+    },
+    "answer": "C",
+    "topic": "Training Process"
+  },
+  {
+    "question_id": 10,
+    "question": "Thuật toán nào sau đây không thuộc học không giám sát?",
+    "options": {
+      "A": "DBSCAN",
+      "B": "Linear Regression",
+      "C": "PCA",
+      "D": "K-means"
+    },
+    "answer": "B",
+    "topic": "Supervised Learning"
+  }
+]
