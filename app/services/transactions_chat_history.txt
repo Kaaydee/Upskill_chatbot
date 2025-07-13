@@ -1,0 +1,74 @@
+LỊCH SỬ HỌC TẬP - KIET1 (TRANSACTIONS)
+
+Câu hỏi 1:
+CÂU HỎI: Tạo bộ câu hỏi 10 câu trắc nghiệm lession 1 về giao dịch trong blockchain
+TRẢ LỜI: Tôi xin lỗi, tài liệu này không nói về blockchain. Nó nói về giao dịch và khóa trong Microsoft SQL Server. Bạn có muốn tôi tạo một bộ câu hỏi trắc nghiệm về chủ đề đó không?
+
+----------------------------------------
+
+Câu hỏi 2:
+CÂU HỎI: Tạo bộ câu hỏi 10 câu trắc nghiệm Lesson 1: Overview of Transactions and Locks về Transactions và Locked trong Microsoft SQL Server.
+TRẢ LỜI: Dựa trên tài liệu đã cung cấp, đây là 10 câu hỏi trắc nghiệm về Lesson 1: Overview of Transactions and Locks trong Microsoft SQL Server:
+
+1.  **Câu nào sau đây mô tả đúng nhất về một transaction?**
+    *   A) Một tập hợp các câu lệnh SQL được thực thi độc lập.
+    *   B) Một chuỗi các bước thực hiện một đơn vị công việc logic.
+    *   C) Một quá trình sao lưu và phục hồi dữ liệu.
+    *   D) Một công cụ giám sát hiệu suất cơ sở dữ liệu.
+
+2.  **ACID là viết tắt của những thuộc tính nào của transaction?**
+    *   A) Atomicity, Consistency, Isolation, Durability
+    *   B) Accuracy, Completeness, Integrity, Dependability
+    *   C) Availability, Capacity, Integrity, Durability
+    *   D) Atomicity, Concurrency, Isolation, Distribution
+
+3.  **Thuộc tính Atomicity trong transaction đảm bảo điều gì?**
+    *   A) Dữ liệu luôn ở trạng thái nhất quán sau transaction.
+    *   B) Các thay đổi của transaction được cô lập khỏi các transaction khác.
+    *   C) Tất cả các bước trong transaction phải thành công hoặc không bước nào được thực hiện.
+    *   D) Các thay đổi của transaction được lưu trữ vĩnh viễn trong cơ sở dữ liệu.
+
+4.  **Tại sao Isolation lại quan trọng trong transaction?**
+    *   A) Để đảm bảo rằng transaction được thực hiện nhanh chóng.
+    *   B) Để ngăn chặn các transaction khác can thiệp vào dữ liệu đang được thay đổi bởi transaction hiện tại.
+    *   C) Để đảm bảo rằng dữ liệu luôn ở trạng thái nhất quán.
+    *   D) Để giảm thiểu việc sử dụng tài nguyên hệ thống.
+
+5.  **Thuộc tính Durability của transaction đảm bảo điều gì?**
+    *   A) Dữ liệu luôn ở trạng thái nhất quán sau transaction.
+    *   B) Các thay đổi của transaction được cô lập khỏi các transaction khác.
+    *   C) Tất cả các bước trong transaction phải thành công hoặc không bước nào được thực hiện.
+    *   D) Các thay đổi của transaction được lưu trữ vĩnh viễn trong cơ sở dữ liệu, ngay cả khi có lỗi hệ thống.
+
+6.  **Transaction log được sử dụng để làm gì?**
+    *   A) Lưu trữ các truy vấn SQL đã thực hiện.
+    *   B) Duy trì tính nhất quán của cơ sở dữ liệu và cho phép phục hồi dữ liệu.
+    *   C) Quản lý quyền truy cập vào cơ sở dữ liệu.
+    *   D) Tối ưu hóa hiệu suất truy vấn.
+
+7.  **Locking được sử dụng trong transaction để làm gì?**
+    *   A) Tăng tốc độ thực hiện transaction.
+    *   B) Ngăn người dùng khác thay đổi hoặc đọc dữ liệu trong transaction chưa hoàn thành.
+    *   C) Giảm thiểu việc sử dụng tài nguyên hệ thống.
+    *   D) Đảm bảo tính nhất quán của dữ liệu.
+
+8.  **OLTP là viết tắt của cụm từ nào?**
+    *   A) Online Transaction Processing
+    *   B) Offline Transaction Processing
+    *   C) Online Transfer Protocol
+    *   D) Offline Transfer Protocol
+
+9.  **Mục tiêu chính của việc quản lý concurrency là gì?**
+    *   A) Giảm thiểu việc sử dụng tài nguyên hệ thống.
+    *   B) Tăng tốc độ thực hiện transaction.
+    *   C) Đảm bảo rằng nhiều người dùng có thể truy cập và thay đổi dữ liệu cùng một lúc mà không gây ra xung đột.
+    *   D) Đảm bảo tính nhất quán của dữ liệu.
+
+10. **Điều gì xảy ra nếu một transaction không hoàn thành?**
+    *   A) Các thay đổi được lưu trữ tạm thời và sẽ được hoàn tất sau.
+    *   B) Các thay đổi được tự động hủy bỏ để đưa cơ sở dữ liệu về trạng thái trước khi transaction bắt đầu.
+    *   C) Một thông báo lỗi được hiển thị cho người dùng.
+    *   D) Transaction được thực hiện lại tự động.
+
+----------------------------------------
+

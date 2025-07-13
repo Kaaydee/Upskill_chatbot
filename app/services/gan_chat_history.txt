@@ -1,0 +1,157 @@
+LỊCH SỬ HỌC TẬP - U1 (GAN)
+
+Câu hỏi 1:
+CÂU HỎI: Tạo 3 câu hỏi trắc nghiệm về GAN
+TRẢ LỜI: Dựa trên đoạn văn bản đã cung cấp, đây là 3 câu hỏi trắc nghiệm về GAN:
+
+1.  GAN (Generative Adversarial Network) bao gồm hai mạng chính, đó là:
+
+    a)  Generator và Encoder
+    b)  Generator và Decoder
+    c)  Generator và Discriminator
+    d)  Encoder và Discriminator
+2.  Mục tiêu của Discriminator trong GAN là gì?
+
+    a)  Tạo ra hình ảnh giả chân thực.
+    b)  Phân biệt hình ảnh thật và hình ảnh giả.
+    c)  Điều chỉnh các tham số của Generator.
+    d)  Mã hóa hình ảnh đầu vào.
+3.  Đâu là một ứng dụng của GAN được đề cập trong đoạn văn bản?
+
+    a)  Xử lý ngôn ngữ tự nhiên.
+    b)  Dự đoán giá cổ phiếu.
+    c)  Tạo khuôn mặt, chuyển đổi ảnh, tăng độ phân giải ảnh.
+    d)  Phân tích dữ liệu tài chính.
+
+----------------------------------------
+
+Câu hỏi 2:
+CÂU HỎI: Tạo 3 câu hỏi trắc nghiệm về GAN
+TRẢ LỜI: Dựa trên tài liệu đã cung cấp, đây là 3 câu hỏi trắc nghiệm về GAN:
+
+1.  GAN (Generative Adversarial Network) bao gồm hai mạng chính nào?
+    *   A. Generator và Classifier
+    *   B. Generator và Discriminator
+    *   C. Encoder và Decoder
+    *   D. Predictor và Evaluator
+
+2.  Mục tiêu của mạng Discriminator trong GAN là gì?
+    *   A. Tạo ra hình ảnh mới từ dữ liệu ngẫu nhiên.
+    *   B. Phân biệt giữa dữ liệu thật và dữ liệu do Generator tạo ra.
+    *   C. Mã hóa hình ảnh đầu vào thành một không gian tiềm ẩn.
+    *   D. Giải mã hình ảnh từ không gian tiềm ẩn.
+
+3.  Loại khoảng cách nào được sử dụng để cải thiện tính ổn định trong quá trình huấn luyện GAN, theo các nghiên cứu gần đây?
+    *   A. Euclidean Distance
+    *   B. Manhattan Distance
+    *   C. Earth Mover Distance
+    *   D. Cosine Distance
+
+----------------------------------------
+
+Câu hỏi 3:
+CÂU HỎI: Tạo 3 câu hỏi trắc nghiệm về GAN
+TRẢ LỜI: Dưới đây là 3 câu hỏi trắc nghiệm về GAN dựa trên tài liệu đã cung cấp:
+
+1.  GAN (Generative Adversarial Network) bao gồm hai mạng chính, đó là:
+
+    *   A. Generator và Encoder
+    *   B. Generator và Decoder
+    *   C. Generator và Discriminator
+    *   D. Encoder và Discriminator
+2.  Mục tiêu của mạng Discriminator trong GAN là gì?
+
+    *   A. Tạo ra các mẫu dữ liệu giả.
+    *   B. Phân biệt giữa dữ liệu thật và dữ liệu giả.
+    *   C. Điều chỉnh độ lớn của activation units (AU).
+    *   D. Mã hóa các biểu cảm khuôn mặt.
+3.  Phương pháp nào được sử dụng để cải thiện tính ổn định trong quá trình huấn luyện GAN, theo như tài liệu?
+
+    *   A. Sử dụng attention mechanisms.
+    *   B. Sử dụng Action Units (AU).
+    *   C. Sử dụng Earth Mover Distance metric.
+    *   D. Sử dụng conditional GANs.
+
+----------------------------------------
+
+Câu hỏi 4:
+CÂU HỎI: Tạo bộ câu hỏi 10 câu trắc nghiệm về tài liệu vừa cung cấp
+TRẢ LỜI: Tuyệt vời, đây là 10 câu hỏi trắc nghiệm dựa trên tài liệu bạn đã cung cấp, tập trung vào các khía cạnh chính của GANimation và các khái niệm liên quan:
+
+**Câu hỏi trắc nghiệm:**
+
+1.  GANimation là một mô hình thuộc loại nào?
+    *   A) Mô hình phân loại ảnh
+    *   B) Mô hình sinh ảnh (Generative model)
+    *   C) Mô hình phát hiện đối tượng
+    *   D) Mô hình phân đoạn ảnh
+
+2.  GANimation sử dụng loại chú thích nào để điều khiển biểu cảm khuôn mặt?
+    *   A) Các điểm mốc trên khuôn mặt (Facial landmarks)
+    *   B) Các hộp giới hạn quanh khuôn mặt (Bounding boxes)
+    *   C) Các đơn vị hành động (Action Units - AUs)
+    *   D) Các nhãn cảm xúc rời rạc (Discrete emotion labels)
+
+3.  Mục tiêu chính của GANimation là gì?
+    *   A) Thay đổi màu tóc của một người trong ảnh
+    *   B) Tạo ra các biểu cảm khuôn mặt khác nhau từ một ảnh duy nhất
+    *   C) Nhận diện khuôn mặt trong ảnh
+    *   D) Tăng độ phân giải của ảnh khuôn mặt
+
+4.  GANimation được huấn luyện theo phương pháp nào?
+    *   A) Huấn luyện có giám sát hoàn toàn (Fully supervised)
+    *   B) Huấn luyện bán giám sát (Semi-supervised)
+    *   C) Huấn luyện không giám sát (Unsupervised)
+    *   D) Huấn luyện tăng cường (Reinforcement learning)
+
+5.  Kiến trúc GAN nào được GANimation dựa trên?
+    *   A) Vanilla GAN
+    *   B) Conditional GAN
+    *   C) CycleGAN
+    *   D) StarGAN
+
+6.  GANimation sử dụng cơ chế nào để xử lý ảnh trong điều kiện ánh sáng và hậu cảnh phức tạp?
+    *   A) Lớp tích chập (Convolutional layer)
+    *   B) Lớp gộp (Pooling layer)
+    *   C) Cơ chế attention (Attention mechanism)
+    *   D) Lớp kết nối đầy đủ (Fully connected layer)
+
+7.  GANimation sử dụng loss function nào để đánh giá tính chân thực của ảnh được tạo ra?
+    *   A) Mean Squared Error (MSE)
+    *   B) Cross-entropy loss
+    *   C) Adversarial loss (WGAN-GP)
+    *   D) Perceptual loss
+
+8.  Điều gì cho phép GANimation tạo ra một loạt các biểu cảm khuôn mặt một cách liên tục?
+    *   A) Sử dụng một tập hợp rời rạc các biểu cảm được xác định trước
+    *   B) Điều chỉnh cường độ kích hoạt của từng AU (Action Unit)
+    *   C) Thay đổi ngẫu nhiên các pixel trong ảnh
+    *   D) Sử dụng mạng nơ-ron hồi quy (Recurrent Neural Network)
+
+9.  Tên của dataset chứa một triệu ảnh biểu cảm khuôn mặt được GANimation sử dụng là gì?
+    *   A) ImageNet
+    *   B) MNIST
+    *   C) EmotioNet
+    *   D) RaFD
+
+10. GANimation có thể được ứng dụng trong lĩnh vực nào?
+    *   A) Công nghiệp điện ảnh
+    *   B) Công nghệ nhiếp ảnh
+    *   C) Kinh doanh thời trang và thương mại điện tử
+    *   D) Tất cả các lĩnh vực trên
+
+**Đáp án:**
+
+1.  B
+2.  C
+3.  B
+4.  C
+5.  B
+6.  C
+7.  C
+8.  B
+9.  C
+10. D
+
+----------------------------------------
+

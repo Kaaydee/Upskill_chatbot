@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": 11,
+    "question": "Thuật toán nào sau đây không thuộc học không giám sát? (câu mở rộng)",
+    "options": {
+      "C": "PCA",
+      "B": "Linear Regression",
+      "D": "K-means",
+      "A": "DBSCAN"
+    },
+    "answer": "B",
+    "topic": "Supervised Learning"
+  },
+  {
+    "question_id": 12,
+    "question": "Thuật toán nào sau đây không thuộc học không giám sát? (câu mở rộng)",
+    "options": {
+      "A": "DBSCAN",
+      "D": "K-means",
+      "B": "Linear Regression",
+      "C": "PCA"
+    },
+    "answer": "B",
+    "topic": "Supervised Learning"
+  },
+  {
+    "question_id": 13,
+    "question": "Overfitting xảy ra khi nào? (câu mở rộng)",
+    "options": {
+      "D": "Dữ liệu bị nhiễu",
+      "C": "Mô hình quá khớp dữ liệu huấn luyện",
+      "A": "Mô hình học quá ít",
+      "B": "Mô hình đơn giản"
+    },
+    "answer": "C",
+    "topic": "Overfitting"
+  },
+  {
+    "question_id": 14,
+    "question": "Overfitting xảy ra khi nào? (câu mở rộng)",
+    "options": {
+      "C": "Mô hình quá khớp dữ liệu huấn luyện",
+      "A": "Mô hình học quá ít",
+      "D": "Dữ liệu bị nhiễu",
+      "B": "Mô hình đơn giản"
+    },
+    "answer": "C",
+    "topic": "Overfitting"
+  },
+  {
+    "question_id": 15,
+    "question": "Activation function phổ biến nào thường dùng trong mạng nơ-ron? (câu mở rộng)",
+    "options": {
+      "A": "Sigmoid",
+      "B": "Mean",
+      "C": "Derivative",
+      "D": "Average Pooling"
+    },
+    "answer": "A",
+    "topic": "Neural Network"
+  },
+  {
+    "question_id": 16,
+    "question": "Activation function phổ biến nào thường dùng trong mạng nơ-ron? (câu mở rộng)",
+    "options": {
+      "A": "Sigmoid",
+      "D": "Average Pooling",
+      "C": "Derivative",
+      "B": "Mean"
+    },
+    "answer": "A",
+    "topic": "Neural Network"
+  }
+]

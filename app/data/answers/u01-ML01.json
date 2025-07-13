@@ -1,0 +1,12 @@
+[
+  { "question_id": 1, "selected_option": "A" },
+  { "question_id": 2, "selected_option": "B" },
+  { "question_id": 3, "selected_option": "D" },
+  { "question_id": 4, "selected_option": "B" },
+  { "question_id": 5, "selected_option": "C" },
+  { "question_id": 6, "selected_option": "C" },
+  { "question_id": 7, "selected_option": "A" },
+  { "question_id": 8, "selected_option": "B" },
+  { "question_id": 9, "selected_option": "C" },
+  { "question_id": 10, "selected_option": "C" }
+]
