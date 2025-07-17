@@ -2,7 +2,10 @@ import streamlit as st
 import requests
 import fitz 
 from docx import Document
+import base64
 
+def encode_image_to_base64(file):
+    return base64.b64encode(file.read()).decode("utf-8")
 # --- Giao diện ---
 st.set_page_config(page_title="UpskillChat", layout="centered")
 st.image("logo.jpg")
@@ -41,10 +44,8 @@ if "uploaded_once" not in st.session_state:
     st.session_state.uploaded_once = False
 
 # --- Upload file nằm trong dấu cộng (sidebar) ---
-# --- Upload file nằm trong dấu cộng (sidebar) ---
 with st.sidebar:
     st.subheader("📄 Quản lý tài liệu")
-
     # Nút xóa nội dung tài liệu đã upload
     if st.session_state.uploaded_once:
         if st.button("🗑️ Xoá tài liệu đã tải"):
@@ -75,11 +76,13 @@ with st.sidebar:
             # Thêm nội dung file vào messages
             st.session_state.messages.append({
                 "role": "user",
-                "content": f"Nội dung tài liệu:\n{file_text}"
+                "content": f"Nội dung tài liệu: {file_text}"
             })
             st.session_state.uploaded_once = True
             st.success(f"✅ Đã thêm nội dung từ: {uploaded_file.name}")
 
+    # st.subheader("🖼️ Tùy chọn ảnh")
+    # uploaded_image = st.file_uploader("📷 Tải ảnh để chỉnh sửa", type=["png", "jpg", "jpeg"])
 
 # --- Hiển thị lịch sử chat (không hiển thị message system) ---
 for msg in st.session_state.messages:
@@ -88,9 +91,13 @@ for msg in st.session_state.messages:
     with st.chat_message("user" if msg["role"] == "user" else "assistant"):
         st.markdown(f"**{'Upskill:' if msg['role'] == 'user' else ''}** {msg['content']}")
 
+
 # --- Nhập prompt từ người dùng ---
 if prompt := st.chat_input("Gõ câu hỏi của bạn tại đây..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
+    payload = {"messages": st.session_state.messages}
+
+        # Hiển thị tin nhắn người dùng
     with st.chat_message("user"):
         st.markdown(f"**Upskill:** {prompt}")
 
@@ -101,7 +108,9 @@ if prompt := st.chat_input("Gõ câu hỏi của bạn tại đây..."):
                 "http://localhost:8000/chat",
                 json={"messages": st.session_state.messages}
             )
-            reply = res.json().get("reply", "[Lỗi: Không có phản hồi từ server]")
+            data = res.json()
+            reply = data.get("reply", "[Lỗi: Không có phản hồi từ server]")
+            image_b64 = data.get("image_base64", None)
     except Exception as e:
         reply = f"[Lỗi khi gửi tới API]: {e}"
 
@@ -109,3 +118,5 @@ if prompt := st.chat_input("Gõ câu hỏi của bạn tại đây..."):
     st.session_state.messages.append({"role": "assistant", "content": reply})
     with st.chat_message("assistant", avatar="logo.png"):
         st.markdown(reply)
+        if image_b64:
+            st.image(image_b64)
